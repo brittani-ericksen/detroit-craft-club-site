@@ -3,9 +3,7 @@
     <div class="wrap nav-inner">
       <router-link to="/" class="logo">
         <div class="logo-badge">
-          <span>DETROIT</span>
-          <span>CRAFT</span>
-          <span>CLUB</span>
+          <img src="../assets/dcc_logo_primary_light_svg.svg" alt="Detroit Craft Club">
         </div>
       </router-link>
       <div class="links">
@@ -39,7 +37,6 @@
 .logo-badge {
   width: 60px;
   height: 60px;
-  background: #759a79;
   display: flex;
   flex-direction: column;
   align-items: center;

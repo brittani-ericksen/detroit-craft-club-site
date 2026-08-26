@@ -1,20 +1,78 @@
-// Edit your content here — pages read from these arrays.
-
-export const previewEvents = [
-  { date: 'AUG 14 · 7PM', title: 'Embroidery & Bad Movies', location: 'Corktown Studio', accent: '#3F5F44', link: '#', volunteerLed: true },
-  { date: 'AUG 21 · 6PM', title: 'Clay Night: Wonky Mugs', location: 'Eastern Market', accent: '#C1714A', link: '#', volunteerLed: false },
-  { date: 'SEP 3 · 7PM', title: 'Swap-Your-Yarn Social', location: 'Hamtramck', accent: '#3F5F44', link: '#', volunteerLed: true },
-]
-
 export const allEvents = [
-  { date: 'AUG 14 · 7PM', title: 'Embroidery & Bad Movies', venue: 'Corktown Studio', city: 'Detroit, MI', masks: 'Masks optional', link: '#', accent: '#3F5F44', volunteerLed: true },
-  { date: 'AUG 21 · 6PM', title: 'Clay Night: Wonky Mugs', venue: 'Eastern Market Ceramics', city: 'Detroit, MI', masks: 'Masks required', link: '#', accent: '#C1714A', volunteerLed: false },
-  { date: 'SEP 3 · 7PM', title: 'Swap-Your-Yarn Social', venue: 'The Yarn Room', city: 'Hamtramck, MI', masks: 'Masks optional', link: '#', accent: '#3F5F44', volunteerLed: true },
-  { date: 'SEP 18 · 6:30PM', title: 'Beginner Beading Night', venue: 'Ferndale Community Space', city: 'Ferndale, MI', masks: 'Masks optional', link: '#', accent: '#C1714A', volunteerLed: false },
+  { 
+    date: 'SUN, AUG 30', 
+    time: '2PM - 4PM', 
+    title: 'Bring Your Own Craft', 
+    venue: 'Robert C Valade Park', 
+    city: 'Detroit', 
+    masks: false, 
+    link: 'https://partiful.com/e/sZFd4f0LkRqK5R2FTvXS', 
+    volunteerLed: false 
+  },
+  { 
+    date: 'SUN, SEP 6', 
+    time: '12:30 - 3PM',
+    title: 'Signal Return Tour & BYOC', 
+    venue: 'Signal Return & Collect Beer Bar', 
+    city: 'Detroit', 
+    masks: false, 
+    link: 'https://partiful.com/e/ILxmJO1BhelNF8bJ7ROT', 
+    volunteerLed: false 
+  },
+  { 
+    date: 'WED, SEP 9', 
+    time: '6 - 8PM',
+    title: 'Bring Your Own Craft', 
+    venue: 'Purrfiction', 
+    city: 'Detroit', 
+    masks: true, 
+    link: 'https://partiful.com/e/wVXhpaFPLsddueKhZZtD', 
+    volunteerLed: false 
+  },
+  { 
+    date: 'SAT, SEP 12', 
+    time: '10AM - 2PM',
+    title: 'Bring Your Own Craft', 
+    venue: 'Central Park', 
+    city: 'Milford', 
+    masks: false, 
+    link: 'https://partiful.com/e/tB5VzCziJTGhzLziaoqP',  
+    volunteerLed: true 
+  },
+  { 
+    date: 'SUN, SEP 13', 
+    time: '1 - 4PM',
+    title: 'Make with Us: Goodbye 2 Summer', 
+    venue: 'Belle Isle', 
+    city: 'Detroit', 
+    masks: false, 
+    link: 'https://partiful.com/e/r5zny2TFzcDKjjDHM4GQ', 
+    volunteerLed: false 
+  },
+  { 
+    date: 'SAT, SEP 19', 
+    time: '3:30 - 5:30PM',
+    title: 'Bring Your Own Craft', 
+    venue: 'Common Craft', 
+    city: 'Hazel Park', 
+    masks: false, 
+    link: 'https://partiful.com/e/12ERUjnppRZOAWPb5xD1', 
+    volunteerLed: false 
+  },
+  { 
+    date: 'WED, SEP 23', 
+    time: '4 - 6PM',
+    title: 'Bring Your Own Craft', 
+    venue: 'Geary Park', 
+    city: 'Ferndale', 
+    masks: false, 
+    link: 'https://partiful.com/e/6nzWhUr8KixSZMtABpg1', 
+    volunteerLed: true 
+  },
 ]
 
 export const admins = [
-  { name: 'Name Placeholder', role: 'CO-FOUNDER', blurb: 'Bio coming soon.' },
-  { name: 'Name Placeholder', role: 'EVENTS LEAD', blurb: 'Bio coming soon.' },
-  { name: 'Name Placeholder', role: 'CO-FOUNDER', blurb: 'Bio coming soon.' },
+  { name: 'Alex', role: 'FOUNDER', blurb: 'Bio coming soon.' },
+  { name: 'Nathalie', role: 'LEADERSHIP TEAM', blurb: 'Bio coming soon.' },
+  { name: 'Brittani', role: 'LEADERSHIP TEAM', blurb: 'Bio coming soon.' },
 ]

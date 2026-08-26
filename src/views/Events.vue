@@ -11,10 +11,11 @@
     <div class="events-list-wrap">
       <div v-for="(ev, i) in allEvents" :key="i" class="event-card">
         <span v-if="ev.volunteerLed" class="vol-badge">VOLUNTEER-LED</span>
-        <div class="event-date" :style="{ color: ev.accent }">{{ ev.date }}</div>
+        <div class="event-date">{{ ev.date }} · {{ ev.time }}</div>
         <div class="event-title">{{ ev.title }}</div>
         <div class="event-venue">{{ ev.venue }} · {{ ev.city }}</div>
-        <div class="event-masks">{{ ev.masks }}</div>
+        <div v-if="ev.masks" class="event-masks">😷 Masks required</div>
+        <div v-else class="event-masks">Masks optional</div>
         <a :href="ev.link" class="rsvp">RSVP ON PARTIFUL</a>
       </div>
     </div>
@@ -31,7 +32,7 @@ import { allEvents } from '../data.js'
 }
 .kicker {
   font-family: 'Space Mono', monospace;
-  font-size: 13px;
+  font-size: 16px;
   color: #759a79;
   margin-bottom: 14px;
   letter-spacing: 1px;
@@ -85,6 +86,7 @@ import { allEvents } from '../data.js'
   font-family: 'Space Mono', monospace;
   font-size: 13px;
   font-weight: 700;
+  color: #C1714A;
 }
 .event-title {
   font-family: 'Archivo Black', sans-serif;
@@ -96,7 +98,7 @@ import { allEvents } from '../data.js'
   color: #274249;
 }
 .event-masks {
-  font-size: 13px;
+  font-size: 14px;
   color: #3f5f44;
   font-weight: 600;
 }

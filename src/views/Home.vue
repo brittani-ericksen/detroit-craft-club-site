@@ -4,11 +4,10 @@
     <section class="hero">
       <div class="wrap">
         <div class="eyebrow">DETROIT, MICHIGAN</div>
-        <h1 class="hero-head">MAKE<br />STUFF.</h1>
+        <h1 class="hero-head">MAKE STUFF.</h1>
         <div class="hero-head2">MEET PEOPLE.</div>
         <p class="hero-copy">
-          A ragtag crew of Detroit crafters who knit, paint, bead, and occasionally set glitter loose in a
-          rented room. Glue guns optional.
+          A metro Detroit community organization focused on building in-person connection and community in the digital age through leftist values and crafting.<br/>All skill levels and crafts are welcome.
         </p>
         <div class="hero-ctas">
           <router-link to="/events" class="btn-solid">SEE UPCOMING EVENTS →</router-link>
@@ -20,13 +19,13 @@
     <!-- Up next -->
     <section class="upnext">
       <div class="wrap">
-        <div class="section-label">UP NEXT — THREE WAYS TO GET GLUE ON YOUR HANDS</div>
+        <div class="section-label">COMING UP NEXT</div>
         <div class="home-events-grid">
-          <div v-for="(ev, i) in previewEvents" :key="i" class="event-card">
+          <div v-for="(ev, i) in allEvents.slice(0, 3)" :key="i" class="event-card">
             <span v-if="ev.volunteerLed" class="vol-badge">VOLUNTEER-LED</span>
-            <div class="event-date" :style="{ color: ev.accent }">{{ ev.date }}</div>
+            <div class="event-date">{{ ev.date }} · {{ ev.time }}</div>
             <div class="event-title">{{ ev.title }}</div>
-            <div class="event-loc">{{ ev.location }}</div>
+            <div class="event-venue">{{ ev.venue }} · {{ ev.city }}</div>
             <a :href="ev.link" class="rsvp-sm">RSVP</a>
           </div>
         </div>
@@ -51,7 +50,7 @@
 </template>
 
 <script setup>
-import { previewEvents } from '../data.js'
+import { allEvents } from '../data.js'
 
 const socials = [
   { label: 'INSTAGRAM', url: 'https://instagram.com/YOUR_HANDLE', icon: '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#F7F5EF" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="#F7F5EF" stroke="none"></circle></svg>' },
@@ -70,7 +69,7 @@ const socials = [
 }
 .eyebrow {
   font-family: 'Space Mono', monospace;
-  font-size: 14px;
+  font-size: 16px;
   color: #759a79;
   letter-spacing: 3px;
   margin-bottom: 28px;
@@ -131,7 +130,7 @@ const socials = [
 .section-label {
   font-family: 'Archivo Black', sans-serif;
   color: #274249;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 2px;
   margin-bottom: 22px;
 }
@@ -155,22 +154,23 @@ const socials = [
   background: #c1714a;
   color: #fdf8e9;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.5px;
   padding: 5px 10px;
 }
 .event-date {
   font-family: 'Space Mono', monospace;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
+  color: #C1714A;
 }
 .event-title {
   font-family: 'Archivo Black', sans-serif;
   font-size: 19px;
   color: #274249;
 }
-.event-loc {
-  font-size: 13px;
+.event-venue {
+  font-size: 14px;
   color: #274249;
 }
 .rsvp-sm {
@@ -191,7 +191,7 @@ const socials = [
   display: inline-block;
   color: #274249;
   font-family: 'Archivo Black', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   text-decoration: underline;
 }
 
