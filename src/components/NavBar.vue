@@ -8,8 +8,8 @@
       </router-link>
       <div class="links">
         <router-link to="/" class="link" active-class="active" exact-active-class="active">Home</router-link>
-        <router-link to="/about" class="link" active-class="active">About</router-link>
         <router-link to="/events" class="link" active-class="active">Events</router-link>
+        <router-link to="/about" class="link" active-class="active">About</router-link>
       </div>
     </div>
   </nav>
@@ -54,8 +54,9 @@
 .links {
   display: flex;
   gap: 28px;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Hello Imperfect', sans-serif;
 }
 .link {
   cursor: pointer;

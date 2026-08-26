@@ -75,7 +75,8 @@ const socials = [
   margin-bottom: 28px;
 }
 .hero-head {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-weight: 400;
   font-size: 104px;
   line-height: 0.9;
   color: #fdf8e9;
@@ -83,7 +84,8 @@ const socials = [
   letter-spacing: -3px;
 }
 .hero-head2 {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-weight: 400;
   font-size: 104px;
   line-height: 0.9;
   color: #759a79;
@@ -108,7 +110,7 @@ const socials = [
   display: inline-block;
   background: #fdf8e9;
   color: #274249;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 16px;
   padding: 18px 34px;
   text-decoration: none;
@@ -117,7 +119,7 @@ const socials = [
   display: inline-block;
   border: 2px solid #fdf8e9;
   color: #fdf8e9;
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 16px;
   padding: 16px 34px;
   text-decoration: none;
@@ -128,7 +130,7 @@ const socials = [
   padding: 44px 0;
 }
 .section-label {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   color: #274249;
   font-size: 18px;
   letter-spacing: 2px;
@@ -165,7 +167,7 @@ const socials = [
   color: #C1714A;
 }
 .event-title {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 19px;
   color: #274249;
 }
@@ -178,8 +180,8 @@ const socials = [
   margin-top: 10px;
   background: #274249;
   color: #fdf8e9;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 12px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 16px;
   padding: 10px 16px;
   text-align: center;
 }
@@ -190,8 +192,8 @@ const socials = [
 .see-all-link {
   display: inline-block;
   color: #274249;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 16px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 18px;
   text-decoration: underline;
 }
 
@@ -207,8 +209,8 @@ const socials = [
   text-align: center;
 }
 .elsewhere-label {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 14px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 18px;
   letter-spacing: 2px;
   color: #3f5f44;
   margin-bottom: 16px;
@@ -226,8 +228,8 @@ const socials = [
   gap: 10px;
   border: 2px solid #274249;
   color: #274249;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 13px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 15px;
   padding: 10px 18px 10px 10px;
   border-radius: 4px;
 }

@@ -38,7 +38,7 @@ import { allEvents } from '../data.js'
   letter-spacing: 1px;
 }
 .title {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 52px;
   line-height: 1.02;
   color: #274249;
@@ -84,17 +84,17 @@ import { allEvents } from '../data.js'
 }
 .event-date {
   font-family: 'Space Mono', monospace;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   color: #C1714A;
 }
 .event-title {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 20px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 24px;
   color: #274249;
 }
 .event-venue {
-  font-size: 14px;
+  font-size: 16px;
   color: #274249;
 }
 .event-masks {
@@ -106,8 +106,8 @@ import { allEvents } from '../data.js'
   text-decoration: none;
   background: #274249;
   color: #f7f5ef;
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 13px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 18px;
   padding: 12px 20px;
   border-radius: 4px;
   text-align: center;

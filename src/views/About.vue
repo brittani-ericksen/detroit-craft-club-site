@@ -5,7 +5,7 @@
         <div class="kicker">ABOUT US</div>
         <h1 class="title">YOUR LOCAL RADICAL LEFTIST CRAFTERS.</h1>
         <p class="body">
-          Longer blurb about DCC.
+          About us coming soon.
         </p>
       </div>
     </section>
@@ -44,7 +44,7 @@ import { admins } from '../data.js'
   letter-spacing: 1px;
 }
 .title {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 48px;
   line-height: 1.05;
   color: #274249;
@@ -65,8 +65,8 @@ import { admins } from '../data.js'
   padding: 56px 0;
 }
 .team-label {
-  font-family: 'Archivo Black', sans-serif;
-  font-size: 18px;
+  font-family: 'Hello Imperfect', sans-serif;
+  font-size: 22px;
   letter-spacing: 2px;
   color: #274249;
   margin-bottom: 28px;
@@ -98,7 +98,7 @@ import { admins } from '../data.js'
   opacity: 0.6;
 }
 .admin-name {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Hello Imperfect', sans-serif;
   font-size: 18px;
   color: #274249;
 }
